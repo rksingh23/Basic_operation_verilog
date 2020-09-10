@@ -1,0 +1,38 @@
+At 0 ns << Starting the Simulation >> 
+
+At 2 ns, Starting Question 1, having value of A=1101 
+The output of &A, where A=0100 is 0 
+The output of ~&A, where A=0110 is 1 
+The output of |A, where A=1000 is 1 
+The output of ~|A, where A=1010 is 0 
+The output of ^A, where A=1100 is 1 
+The output of ~^A, where A=1110 is 0 
+At 16 ns, Ending Question 1, having value of A=1101 
+ 
+
+At 20 ns, Starting Question 2, having value of A=1010 and B=1x10 
+The output of (A|B), where value of A=1010 and B=1x10 is 1x10
+The output of (A+B), where value of A=1010 and B=1x10 is xxxx 
+The output of (A>B), where value of A=1010 and B=1x10 is x 
+The output of {{3{A}},B}, where value of A=1010 and B=1x10 is 1010101010101x10 
+The output of (A&&B), where value of A=1010 and B=1x10 is 1 
+The output of (A||B), where value of A=1010 and B=1x10 is 1 
+At 34 ns, Ending Question 2, having value of A=1010 and B=1x10 
+ 
+
+At 38 ns, Starting Question 3, having value of A=11x1 and B=x101 
+The output of Case Comparison (A===B), where value of A=11x1 and B=x101 is 0 
+The output of Logical Comparison (A==B), where value of A=11x1 and B=x101 is x 
+At 44 ns, Ending Question 3, having value of A=11x1 and B=x101 
+ 
+
+At 46 ns, Starting Question 4 
+The decleration ('h3b) is legal, it's binary interpretation is (8'b 00111011) 
+The decleration (12'hABC) is legal, it's binary interpretation is (12'b 101010111100) 
+The decleration (4'X11) is illegal, it's binary interpretation cannot be determined  
+The decleration (4'b101011) is legal, it's binary interpretation is (4'b 1011) 
+The decleration (4'b11?1) is legal, it's binary interpretation is (4'b 11Z1) 
+The decleration (8'b1100_1100) is legal, it's binary interpretation is (8'b 11001100) 
+At 60 ns, Ending Question 4 
+ 
+At 77 ns << Ending the Simulation >> 
